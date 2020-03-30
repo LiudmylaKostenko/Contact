@@ -1,0 +1,165 @@
+@font-face {
+    font-family: "Pacifico";
+    src: url("../fonts/pacificoregular.ttf");
+    font-family: "Raleway-Bold";
+    src: url("../fonts/Raleway-Bold.ttf");
+    font-family: "Raleway-Light";
+    src: url("../fonts/Raleway-Light.ttf");
+}
+
+
+.wrapper {
+    position: relative;
+    width: 100%;
+    background: url('../assets/img.jpg') no-repeat center / cover;
+    background-size: cover;
+}
+
+header .containerTitle {
+    font-family: "Raleway-Bold";
+    font-size: 90px;
+    color: black;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-top: 40px;
+}
+
+header .containerTitle .description {
+    font-family: "Raleway-Light"!important;
+    font-size: 17px !important;
+    color: black;
+    font-weight: normal !important;
+    font-family: sans-serif;
+    position: relative;
+}
+
+main form .containerContent input:focus,
+main form .containerContent textarea:focus,
+main form .containerContent .dropdown:focus
+
+{
+    background-color: rgb(1, 195, 195);
+    opacity: 1;
+    border-left: 1mm solid rgb(50, 95, 137);
+   
+}
+
+main form .containerContent input,
+main form .containerContent textarea,
+main form .containerContent .dropdown {
+    background-color: rgb(1, 195, 195);
+    opacity: 0.5;
+    margin-bottom: 10px;
+    width: 85%;
+    height: 48px;
+    padding-left: 10px;
+}
+
+main form .containerContent input::-webkit-input-placeholder,
+main form .containerContent textarea::-webkit-input-placeholder
+
+
+{
+    color: white;
+}
+
+main form .containerContent input::-moz-placeholder,
+main form .containerContent textarea::-moz-placeholder {
+    color: white;
+}
+
+.containerContent input .number:invalid,
+.containerContent input .name:invalid,
+.containerContent input .emailT:invalid {
+    border: 1px solid red;
+    outline: none;
+}
+
+.name {
+    font-family: "Raleway-Bold";
+    font-size: 15px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.name,
+.emailT,
+.number,
+.message {
+    outline: none;
+}
+
+.emailT,
+.number {
+    font-family: "Raleway-Light";
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.dropdown .btn:focus {
+    background-color: rgb(1, 195, 195) !important;
+    opacity: 1;
+    height: 47px;
+}
+
+.dropdown .btn {
+    background-color: rgb(1, 195, 195);
+    opacity: 0.5;
+    padding-left: 15px;
+}
+
+.input-group-addon {
+    margin: 10px 2px;
+    padding-right: 10px;
+    color: rgb(24, 23, 23);
+}
+
+.containerContent textarea {
+    padding-left: 10px !important;
+    height: 200px !important;
+}
+
+.information .address,
+.information .Email,
+.information .phone {
+    font-family: "Raleway-Light";
+    font-size: 15px;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-left: 35px;
+}
+
+.cityName,
+.yourEmail,
+.numberPhone {
+    font-family: "Raleway-Light";
+    font-size: 17px;
+    color: rgb(141, 140, 140) !important;
+    font-weight: bold;
+    padding-left: 35px;
+}
+
+footer {
+    background: rgb(7, 6, 6);
+    line-height: 92px;
+    position: relative;
+    top: 50px;
+}
+
+footer .madeWith .red {
+    color: rgb(221, 8, 150);
+    font-weight: bold;
+}
+
+.copyright,
+.madeWith {
+    font-family: "Raleway-Light";
+    font-size: 15px;
+    color: rgb(255, 255, 255) !important;
+}
+
+footer .cahee {
+    font-family: "Pacifico", cursive;
+    size: 25px;
+    color: rgb(185, 185, 185);
+}
